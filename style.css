@@ -21,7 +21,7 @@ body{
 
 .w-100 {
     width: 50%!important;
-}  /* logor width*/
+}  logor width
 
 img{vertical-align: middle;}
 
@@ -61,17 +61,17 @@ h1{
     font-weight: 600;
     
 }
-
-.w-50{
+/* 
+ .w-50{
     width: 150%!important;
-    /* height: 50%; */
+     height: 50%; 
 
-} 
-
+}  */
+/* 
 .col-3{
     margin: 0 auto;
     height: 100px;
-}
+}  */
 
 h5{
     /* margin-right: 10px;
