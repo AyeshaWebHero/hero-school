@@ -1,0 +1,258 @@
+.container{
+
+    margin-bottom: 70px;
+  
+}
+
+
+body{
+    margin-top: 200px;
+}
+.navbar-light .navbar-nav .active>.nav-link {
+    color: rgba(0,0,0,.5);
+}
+ 
+.nav-link{ color: black;
+    
+   }
+.nav-item{
+    margin-left: 10px;
+}
+
+/* .w-100 {
+    width: 50%!important;
+} */
+
+img{vertical-align: middle;}
+
+.btn {
+    border: none;
+    padding: 9px 12px;
+  width: 100px;
+  height: 40px;
+    border-bottom-left-radius: 22px;
+    border-bottom-right-radius: 22px;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+    
+    background-color: rgba(17, 179, 103, 0.884);
+    margin-left: 20px;
+    
+}
+
+.card{
+    border: none;
+     /* box-shadow: 5px 10px rgb(187, 178, 178) ; */
+
+}
+.get-started{
+    border: none;
+    padding: 9px 10px;
+  width: 150px;
+  height: 42px;
+   
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+h1{
+    font-weight: 600;
+    
+}
+
+/* .w-50{
+    width: 150%!important;
+    height: 50%;
+
+} 
+
+.col-3{
+    margin: 0 auto;
+    height: 100px;
+} */
+
+h5{
+    /* margin-right: 10px;
+    margin-top: 20px;*/
+    padding-left: 20px; 
+margin: 0 auto;
+vertical-align: center;
+text-align: justify;
+}
+
+
+
+.learn-anything{
+    margin: 0 auto;
+vertical-align: center;
+text-align: center;
+margin-left: 10px;
+}
+
+.cat-1, .cat-2, .cat-3, .cat-4{
+    padding: 10px 30px;
+    border-radius: 10px;
+    display: block;
+    max-width: 100%;
+    margin-top: 10px;
+}
+
+.cat-text{
+    margin-top: 10px;
+    text-align: center;
+
+}
+.display-4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    color: rgb(50, 13, 121);
+    cursor: pointer;
+
+}
+
+.display-4:hover{
+  color: brown;
+  text-decoration: underline;
+}
+
+h4{
+    color: rgb(63, 63, 122);
+}
+
+.card-text{
+    color:rgba(52, 54, 53, 0.884);
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+
+
+}
+
+small{
+    color: rgb(109, 101, 101);
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.mute-text{color: rgb(241, 226, 226);}
+
+.display-3{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+color: rgb(51, 163, 51);}
+
+.display-3:hover{
+    font-weight: 700;
+    font-family: 'Do Hyeon', sans-serif;
+    cursor: pointer;
+    color: mediumblue;
+    background-image: linear-gradient(40deg,orange,lime);
+}
+
+
+
+
+.page-footer
+{
+  background-color:#232129;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+
+ 
+.page-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+
+
+.copyright-text
+{
+  margin:0 auto;
+}
+
+
+/* @media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600;
+  }
+} */
+
+
+/* footer social icons */
+ul.social-network {
+	list-style: none;
+	display: inline;
+	margin-left: 80px;
+    padding: 0;
+    position: relative;
+}
+ul.social-network li {
+	display: inline;
+	margin: 0 5px;
+}
+
+
+.social-network a.icoFacebook:hover {
+	background-color:#3B5998;
+}
+.social-network a.icoTwitter:hover {
+	background-color:#33ccff;
+}
+
+
+ .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i {
+	color:#fff;
+}
+a.socialIcon:hover, .socialHoverClass {
+	color:#44BCDD;
+}
+
+.social-circle li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align:center;
+	width: 50px;
+	height: 50px;
+	font-size:20px;
+	background-color: #D3D3D3;
+}
+.social-circle li i {
+	margin:0;
+	line-height:50px;
+	text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.social-circle i {
+	color: #fff;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+}
